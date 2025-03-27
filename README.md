@@ -1,6 +1,6 @@
 # 🎵 mahler
 
-![PyPI - Version](https://img.shields.io/pypi/v/mahler)
+![PyPI - Version](https://img.shields.io/pypi/v/mahler) ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/michaeleveringham/mahler/tests.yml)
 
 
 Web browser automation wrapper.
