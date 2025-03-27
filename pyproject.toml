@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "mahler"
+version = "0.1.0"
+description = "Web browser automation wrapper."
+authors = ["Michael Everingham <36551116+michaeleveringham@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "mahler", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+playwright = "^1.51.0"
+selenium = "^4.30.0"
+webdriver-manager = "^4.0.2"
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "^7.2.6"
+sphinx-rtd-theme = "^2.0.0"
+sphinx-autoapi = "^3.0.0"
+myst-parser = "^2.0.0"
+sphinxnotes-comboroles = "^1.0.0b0"
+
+[tool.poetry.group.test.dependencies]
+flake8 = "^7.0.0"
+pytest = "^8.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
